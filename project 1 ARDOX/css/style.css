@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+            /* ============ common css starts ================ */
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 1257px;
+    margin: 0 auto;
+}
+ol, ul {
+    list-style-type: none;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+}
+body {
+    background-color: #141517;
+}
+:root {
+    --roboto: "Roboto", sans-serif;;
+}
+span {
+    display: inline-block;
+}
+
+            /* ============ common css ends  ================ */
+
+            /* ============ nav css starts ================ */
+#main_menu {
+    padding-top: 43px;
+}
+.menu_row {
+    display: flex;
+    justify-content: space-between;
+}
+.menu_row .menu_logo img {
+    width: 100px;
+}
+.menu_row .menu_login {
+    display: flex;
+    gap: 21px;
+}
+.menu_row .menu_login a {
+    padding: 10px 11px;
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--roboto);
+    position: relative;
+    transition: all linear .4s;
+}
+.menu_row .menu_login a:hover {
+    background-color: transparent;
+    color: white;
+}
+.menu_row .menu_login a::after {
+    content: '';
+    background-color: white;
+    width: 22px;
+    height: 2px;
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    transform: translate(-50%);
+}            /* ============ nav css ends  ================ */
+
+#sign_up {
+    padding-top: 182px;
+}
+.sign_up_row {
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+.sign_up_row .sign_up_image img {
+    width: 587px;
+    margin-left: 31px;
+}
+.sign_up_row .sign_up_all_text {
+    width: 373px;
+}
+.sign_up_row .sign_up_all_text .sign_up_head h2 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 4px;
+}
+.sign_up_row .sign_up_all_text .sign_up_head h3 {
+    font-size: 36px;
+    font-weight: 600;
+    font-family: var(--roboto);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 58px;
+}
+.sign_up_row .sign_up_all_text .sign_up_bar {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+.sign_up_row .sign_up_all_text .sign_up_bar input {
+    width: 372px;
+    height: 61px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: none;
+    color: #5E5E5E;
+
+    font-size: 22px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    padding: 17px 193px 18px 27px;
+}
+.sign_up_row .sign_up_all_text .forget {
+    display: flex;
+    justify-content: end;
+}
+.sign_up_row .sign_up_all_text .forget a {
+    font-size: 18px;
+    font-weight: 200;
+    font-family: var(--roboto);
+    color: #7e7c7c;
+    margin-bottom: 47px;
+}
+.sign_up_row .sign_up_all_text .sign_up_button a{
+    padding: 17px 156px;
+    background-color: #fff;
+    border-radius: 8px;
+
+    font-size: 18px;
+    font-weight: 900;
+    font-family: var(--roboto);
+    color: #000;
+    transition: all ease .2s;
+}
+.sign_up_row .sign_up_all_text .sign_up_button a:hover {
+    transform: scale(1.1);
+}
+.sign_up_row .sign_up_all_text .sign_up_button a:active {
+    transform: scale(1);
+}
+.sign_up_row .sign_up_all_text .sign_up_button p {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--roboto);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 36px;
+}
+.sign_up_row .sign_up_all_text .sign_up_button p span {
+    content: '';
+    width: 101px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+}
+.sign_up_row .sign_up_all_text .sign_up_button p span {
+    width: 101px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+}
+.sign_up_row .sign_up_all_text .sign_up_logos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 42px;
+}
+.sign_up_row .sign_up_all_text .sign_up_logos a img {
+    width: 87px;
+}
+.sign_up_row .sign_up_all_text .sign_up_text a{
+    font-size: 20px;
+    font-weight: 300;
+    font-family: var(--roboto);
+    color: #7e7c7c;
+    margin-top: 52px;
+}
+.sign_up_row .sign_up_all_text .sign_up_text a span{
+    font-size: 20px;
+    font-weight: 900;
+    font-family: var(--roboto);
+    color: #FFFFFF;
+    margin-left: 6px;
+}

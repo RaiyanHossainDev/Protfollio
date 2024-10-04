@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .calc{
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .calc input{
+            border: none;
+            outline: none;
+            background-color: rgb(93, 92, 92);
+            height: 103px;
+            font-size: 35px;
+            font-weight: 500;
+            font-family: sans-serif;
+            color: white;
+            padding: 0 20px;
+        }
+        .calc .nums{
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .calc .nums button{
+            height: 80px;
+            width: 133px;
+            text-align: center;
+            line-height: 80px;
+            font-size: 30px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="calc">
+        <input type="text" class="input" readonly>
+        <div class="nums">
+            <button class="num" onclick="nums(1)">1  </button>
+            <button class="num" onclick="nums(2)">2  </button>
+            <button class="num" onclick="nums(3)">3  </button>
+            <button class="num" onclick="nums(4)">4  </button>
+            <button class="num" onclick="nums(5)">5  </button>
+            <button class="num" onclick="nums(6)">6  </button>
+            <button class="num" onclick="nums(7)">7  </button>
+            <button class="num" onclick="nums(8)">8  </button>
+            <button class="num" onclick="nums(9)">9  </button>
+            <button class="num" onclick="nums(0)">0  </button>
+            <button class="num" onclick="nums('*')">*</button>
+            <button class="num" onclick="nums('+')">+</button>
+            <button class="num" onclick="nums('-')">-</button>
+            <button class="num" onclick="nums('/')">/</button>
+            <button class="num" onclick="nums('.')">.</button>
+            <button class="num" onclick="c()">C</button>
+            <button class="num" onclick="calculate()">=</button>
+        </div>
+    </div>
+
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
