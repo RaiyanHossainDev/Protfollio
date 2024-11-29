@@ -1,0 +1,34 @@
+#raiyan_nav {
+    @apply border-b-[1px] border-b-[#E6E3D9] w-full
+    absolute
+}
+#raiyan_nav .menu_row {
+    @apply flex items-center
+}
+.menu_row .menu_p {
+    @apply py-[12px] border-r-[1px] border-r-[#E6E3D9] w-[82px] text-center
+}
+.menu_row .menu_p h2 {
+    @apply text-[38px] font-bee text-[#E2DCC8]
+}
+.menu_row .menu_media {
+    @apply pr-[480px] pl-[28px] border-r-[1px] border-r-[#E6E3D9] h-[89px] flex items-center
+}
+.menu_row .menu_media .icons {
+    @apply flex gap-[38px] text-[gray] text-[20px]
+}
+
+
+.menu_row .main_menu {
+    @apply flex gap-[300px] pl-[26px]
+}
+.menu_row .main_menu ul {
+    @apply flex gap-[63px]
+}
+.menu_row .main_menu ul li a {
+    @apply text-[#E2DCC8] font-bee transition-all duration-100 
+    hover:text-[#B66449]
+}
+.menu_row .main_menu .lisens h4 {
+    @apply text-[15px] text-[#E2DCC8] font-normal
+}

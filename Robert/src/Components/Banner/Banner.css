@@ -1,0 +1,55 @@
+#banner {
+    @apply h-[957px] w-full
+}
+
+.banner_row {
+    @apply flex justify-between h-full w-full
+}
+.banner_row .banner_text {
+    @apply pl-[24px] pt-[10px]
+}
+.banner_row .banner_text h1{
+    @apply text-def text-[76px] italic font-bee
+}
+.banner_row .banner_text p {
+    @apply text-def font-bee text-[15px]
+}
+
+
+.banner_text .text_button {
+    @apply flex gap-[22px] items-center ml-[329px] mt-[105px]
+}
+.banner_text .text_button a{
+    @apply text-white bg-[#B66449] rounded-[70px] w-[109px] inline-block px-[36px] py-[20px]
+    text-[35px]
+}
+
+
+.banner_text .text_number {
+    @apply flex gap-[57px] mt-[188px]
+}
+.text_number .single_number_card {
+    @apply flex gap-[23px] items-center
+}
+.text_number .single_number_card h2 {
+    @apply text-def text-[74px] font-bee italic
+}
+
+
+.banner_row .banner_image {
+    @apply bg-center bg-no-repeat bg-cover ml-[38.5px] 
+    relative flex items-center h-full w-full
+    ;
+    background-image: url(images/banner_line.png);
+}
+.banner_row .banner_image .image_circle {
+    @apply w-[608px] h-[608px] rounded-full
+    flex items-center justify-center 
+    absolute left-[512px]
+    ;
+    background-color: rgba(0, 0, 0, 0.43);
+}
+.banner_row .banner_image .image_circle a {
+    @apply underline text-def text-[22px] font-bee font-normal
+    w-[151px]
+}

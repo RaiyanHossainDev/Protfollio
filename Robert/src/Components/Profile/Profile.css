@@ -1,0 +1,25 @@
+
+
+
+
+.profile_row .profile_text {
+    @apply border-r-[1px] border-r-def pr-[62.5px]
+} 
+.profile_row .profile_text {
+    @apply pl-[24px] pt-[10px]
+}
+.profile_row .profile_text h1{
+    @apply text-def text-[76px] italic font-bee
+}
+.profile_row .profile_text p {
+    @apply text-def font-bee text-[15px]
+}
+
+
+.profile_text .profile_button {
+    @apply flex gap-[22px] items-center ml-[329px] mt-[105px]
+}
+.profile_text .profile_button a{
+    @apply text-white bg-[#B66449] rounded-[70px] w-[109px] inline-block px-[36px] py-[20px]
+    text-[35px]
+}

@@ -1,0 +1,44 @@
+/* #raiyan_work {
+    @apply
+} */
+
+#raiyan_work .work_row {
+    @apply flex
+}
+
+.work_row .work_text {
+    @apply border-r-[2px] border-r-[#E6E3D9]
+}
+.work_row .work_text h2{
+    @apply text-[76px] text-def italic font-bee ml-[22px]
+}
+
+.work_row .work_text ul {
+    @apply w-[643.4px] mt-[131px]
+}
+.work_row .work_text ul li {
+    @apply py-[9px] px-[27px] 
+    text-def text-[22px] font-bee border-y-[1px] border-y-[#E6E3D9]
+    mt-[-1px] cursor-pointer
+    flex items-center transition-all 
+}
+
+.work_row .work_text ul li:hover span{
+    @apply inline-block
+}
+.work_row .work_text ul li span {
+    @apply text-[30px] hidden transition-all 
+}
+
+
+.work_text .text_button {
+    @apply flex gap-[17px] items-center justify-end mt-[75px]
+}
+.work_text .text_button a {
+    @apply w-[109px] h-[69px] bg-[#B66449] rounded-[70px] inline-block
+    flex justify-center items-center text-[34px] text-def
+}
+
+.work_row .work_image {
+    @apply py-[27px] pl-[26px]
+}

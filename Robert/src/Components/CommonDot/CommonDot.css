@@ -1,0 +1,13 @@
+#CommonDot {
+    @apply absolute top-[50%] right-[20px] ;
+    transform: translate(-50%);
+}
+
+.dot_row ul {
+    @apply flex flex-col gap-[25px]
+}
+.dot_row ul li {
+    @apply w-[12px] h-[12px] rounded-full bg-def hover:bg-[#B66449]
+    cursor-pointer transition-all
+}
+

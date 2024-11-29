@@ -1,0 +1,15 @@
+#raiyan_sidebar {
+    @apply py-[33px] px-[15px]
+    border-r-[1px] border-r-[#E6E3D9]
+    w-[82px] h-[957px]
+}
+
+#raiyan_sidebar .sidebar_col {
+    @apply flex flex-col 
+}
+
+.sidebar_col h2 ,.sidebar_col p{
+    @apply text-[#E2DCC8] text-[38px] font-bee;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+}
