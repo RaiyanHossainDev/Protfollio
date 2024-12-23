@@ -1,0 +1,7 @@
+#DoneSlider {
+    @apply my-[64px] 
+}
+#DoneSlider .slide_container .line {
+    @apply bg-[#E6E9EF] w-full sm:w-[453px] h-[1px]
+    mt-[64px]
+}

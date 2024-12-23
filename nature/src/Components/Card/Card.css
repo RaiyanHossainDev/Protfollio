@@ -1,0 +1,59 @@
+#card {
+    @apply pt-[124px] relative
+}
+
+.card_row {
+    @apply flex flex-col items-start
+}
+.card_row .single_card {
+    @apply py-[23px] px-[33px] bg-white rounded-[10px] items-start
+    flex flex-col gap-[31px] 
+}
+.card_row .single_card h2 {
+    @apply text-[43px] font-lora
+}
+.card_row .single_card h2 span {
+    @apply relative z-[2]
+}
+.card_row .single_card h2 span::after {
+    content: '';
+    background-image: url(images/card1Drop.png);
+    @apply inline-block w-[105px] h-[11px] bg-center bg-cover z-[-1]
+    absolute bottom-[6px] left-0
+}
+.card_row .single_card p {
+    @apply text-[16px] font-lora font-medium text-sekendary w-full lg:w-[410px]
+}
+.card_row .single_card button {
+    @apply px-[40px] py-[13px] bg-brandColor rounded-[4px] border-[1px] border-transparent
+    text-white text-[13px] font-lora font-semibold transition-all
+    hover:text-brandColor hover:bg-white hover:border-brandColor
+    z-10
+}
+.card_row .card2 h2 span::after{
+    background-image: url(images/card2Drop.png);
+    @apply w-[115px]
+}
+.card_row .card3 h2 span::after{
+    background-image: url(images/card3Drop.png);
+    @apply w-full
+}
+
+
+#card .lien1 {
+    @apply h-[2161px] w-[2px] bg-[#E6E9EF]
+    absolute top-[-59px] sm:top-[-228px] left-[32px]
+}
+#card .lien2 {
+    @apply h-[2282px] w-[2px] bg-[#E6E9EF]
+    absolute right-0 top-[-68px]
+}
+#card .left {
+    @apply absolute top-[86px] left-0 z-[-1]
+}
+#card .right {
+    @apply absolute top-[539px] right-0 z-[-1]
+}
+#card .center {
+    @apply absolute bottom-[399px] w-[285px] md:w-[667px] left-1 md:left-[100px] lg:left-[264px] z-[-1]
+}

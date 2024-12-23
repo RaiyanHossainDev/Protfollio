@@ -1,0 +1,27 @@
+
+.team_row {
+    @apply flex flex-wrap xl:flex-nowrap gap-14 xl:gap-0
+    justify-center xl:justify-between
+}
+.team_row .team_head h2 {
+    @apply text-[45px] text-textColor font-lora
+}
+.team_row .team_head h2 span {
+    @apply relative
+}
+.team_row .team_head h2 span::after {
+    content: '';
+    background-image: url(images/card2Drop.png);
+    @apply w-full h-[12px] bg-center bg-no-repeat bg-cover inline-block z-[-1]
+    absolute bottom-[3px] left-0
+}
+
+.team_row .singleTeamCard {
+    @apply flex flex-col gap-[24px] 
+}
+.singleTeamCard h2 {
+    @apply text-[32px] font-lora
+}
+.singleTeamCard p {
+    @apply text-[#2C2C2C] text-[16px] font-monster font-medium
+}

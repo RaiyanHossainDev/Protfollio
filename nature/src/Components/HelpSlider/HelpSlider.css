@@ -1,0 +1,57 @@
+#helpSlider {
+    @apply mt-[109px] pt-[96px] pb-[55px] bg-[#F3F7F5]
+    flex flex-col justify-center
+}
+.helpSlider_text h2{
+    @apply text-[#19191A] text-[32px] font-monster font-semibold
+    mb-[16px]
+}
+.helpSlider_text p {
+    @apply text-[#19191A] text-[16px] font-monster w-full lg:w-[485px]
+}
+
+
+
+
+.sliderContainer .slick-slider .slick-arrow {
+    @apply  !hidden
+}
+.sliderContainer .slick-slider .slick-list .slick-track {
+    @apply !flex gap-[20px] sm:gap-[32px] pl-[16px]
+}
+
+
+
+/* ======== */
+#helpSlider .sliderContainer {
+    @apply pl-[10px] sm:pl-[100px] mt-[72px]
+}
+.sliderContainer .singleSlideCard {
+    background-image: url(images/helpSliderCard1img.png);
+    @apply h-[396px] bg-center bg-no-repeat bg-cover p-[32px]
+    flex flex-col gap-[16px] justify-end rounded-[8px] overflow-hidden
+}
+#helpSlider .singleSlideCard h2 {
+    @apply text-white text-[30px] font-monster font-medium
+    flex flex-col gap-[16px]
+}
+#helpSlider .singleSlideCard p {
+    @apply text-white text-[16px] font-medium font-monster w-full md:w-[332px]
+}
+#helpSlider .singleSlideCard a {
+    @apply w-[47px] h-[47px] rounded-full bg-white flex justify-center items-center
+}
+#helpSlider .singleSlideCard h2::after {
+    content: '';
+    @apply w-[75px] h-[1px] bg-white inline-block
+}
+#helpSlider .card2 {
+    background-image: url(images/helpSliderCard2img.png);
+}
+#helpSlider .card3 {
+    background-image: url(images/helpSliderCard3img.png);
+}
+#helpSlider .card4 {
+    background-image: url(images/helpSliderCard4img.png);
+    @apply rounded-[8px]
+}

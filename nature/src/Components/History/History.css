@@ -1,0 +1,54 @@
+#his {
+    @apply mt-[128px] mb-[128px]
+}
+
+
+.history_col {
+    @apply flex flex-col items-center
+}
+.history_col .history_head h2 {
+    @apply text-[45px] text-textColor font-lora
+}
+.history_col .history_head h2 span {
+    @apply relative
+}
+.history_col .history_head h2 span::after {
+    content: '';
+    background-image: url(images/card2Drop.png);
+    @apply w-full h-[12px] bg-center bg-no-repeat bg-cover inline-block z-[-1]
+    absolute bottom-[3px] left-0
+}
+
+
+.history_col ul {
+    @apply flex flex-col gap-[64px]
+    relative
+}
+.history_col ul li h2 {
+    @apply font-chivo text-[24px]
+}
+.history_col ul li p {
+    @apply text-[16px] font-medium text-[#595959] font-monster
+    sm:w-[268px]
+    mt-[17px]
+}
+.history_col ul li {
+    @apply relative
+}
+.history_col ul li::before {
+    content: '';
+    @apply hidden sm:inline-block w-[18px] h-[18px] rounded-full bg-brandColor
+    absolute top-[8px] left-[-34px]
+    z-[2]
+}
+
+.history_col .line {
+    @apply absolute top-0 left-[-25px]
+    h-[782px] w-[1px] bg-[#E6E9EF] z-[1]
+    sm:block hidden
+}
+
+#his .Leftline {
+    @apply h-[863px] w-[1px] bg-[#E6E9EF] 
+    absolute top-[-98px] left-0
+}

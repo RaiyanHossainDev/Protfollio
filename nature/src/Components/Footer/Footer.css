@@ -1,0 +1,28 @@
+footer {
+    @apply pt-[34px] pb-[82px] mt-[33px]
+}
+.footer_row {
+    @apply flex gap-[100px] lg:gap-0 lg:justify-between flex-wrap justify-center
+}
+.footer_row .single_drop h2 {
+    @apply text-[16px] font-semibold font-lora text-textColor
+}
+.footer_row .single_drop ul {
+    @apply flex flex-col gap-[16px]
+    mt-[20.5px]
+}
+.footer_row .single_drop ul li a {
+    @apply font-inter text-[14px] text-textColor
+}
+footer .line {
+    @apply w-full h-[1px] bg-textColor mt-[74px]
+}
+footer .row3 {
+    @apply mt-[22px]
+}
+footer .row3 h2 ,footer .row3 h4 p{
+    @apply text-textColor font-monster text-[13px]
+}
+footer .row3 h4 {
+    @apply flex gap-[20px]
+}

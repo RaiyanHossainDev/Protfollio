@@ -1,0 +1,34 @@
+#nav {
+    @apply shadow-[0px_1px_8px_0px_#00000024] hidden lg:block
+}
+.menu_row {
+    @apply py-[8px] flex items-center justify-between
+}
+.menu_row .menu {
+    @apply flex gap-[145px] items-center
+}
+.menu_row .menu .main_menu ul {
+    @apply flex xl:gap-[64px] gap-6
+}
+.menu_row .menu .main_menu ul li a {
+    @apply font-lora text-[14px] font-medium w-[62px]
+    flex flex-col items-center
+}
+.menu_row .menu .main_menu ul li a::after {
+    content: '';
+    @apply inline-block  w-[62px] rounded-[4px] h-[4px] transition-all
+}
+.menu_row .menu .main_menu ul li a:hover::after {
+    @apply w-[31px] bg-[#257251]
+}
+.menu_row .buttons {
+    @apply flex gap-[13px]
+}
+.menu_row .buttons a {
+    @apply py-[13px] px-[20px] rounded-[4px] transition-all
+    text-[14px] font-semibold font-lora text-white bg-[#257251]
+    border-2 border-transparent
+}
+.menu_row .buttons a:hover {
+    @apply border-[#257251] bg-white text-[#272A5A]
+}

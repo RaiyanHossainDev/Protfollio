@@ -1,0 +1,46 @@
+
+#banner {
+    @apply pt-[64px] relative
+}
+.banner_row {
+    @apply flex justify-between items-center lg:items-start flex-col-reverse lg:flex-row gap-10 
+}
+.banner_row .banner_text h1 {
+    @apply text-[25px] lg:text-[45px] text-textColor font-lora w-[217px] sm:w-[386px] 
+}
+.banner_row .banner_text {
+    @apply flex flex-col items-center lg:items-start
+}
+.banner_row .banner_text h1::after {
+    content: '';
+    @apply w-full sm:w-[453px] h-[2px] bg-[#E6E9EF] inline-block 
+}
+.banner_row .banner_text h1 span::after {
+    content: '';
+    background-image: url(images/bannerDrop.png) ;
+    @apply inline-block w-[97px] lg:w-[171px] h-[12px] bg-cover bg-no-repeat bg-center
+    absolute bottom-0 lg:bottom-1 right-[-5px]
+    z-[-1]
+    ;
+}
+.banner_row .banner_text p {
+    @apply text-sekendary font-lora font-medium text-[12px] sm:text-[16px] w-full sm:w-[448px]
+}
+
+
+.banner_row .banner_text .signUpBar {
+    @apply w-full sm:w-[444px] h-[49px] rounded-[8px] mt-[64px]
+    border-[1px] border-[#E6E9EF] overflow-hidden
+    flex justify-between
+}
+.banner_row .banner_text .signUpBar input {
+    @apply outline-none text-[14px] sm:text-[16px] font-monster font-medium w-[179px] sm:w-[300px]
+    pl-[10px] sm:pl-[29px] 
+}
+.banner_row .banner_text .signUpBar button {
+    @apply py-[7px] sm:py-[13px] px-[12px] sm:px-[29px] bg-brandColor rounded-[8px] text-white
+    font-semibold font-monster
+}
+#banner .banner_bg img{
+    @apply  absolute right-0 top-0 w-[835px]
+}

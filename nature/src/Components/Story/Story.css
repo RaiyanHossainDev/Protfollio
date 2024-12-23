@@ -1,0 +1,33 @@
+#story {
+    background-image: url(images/story_bg.png);
+}
+
+
+.story_row {
+    @apply flex justify-between pt-[71px] pb-[50px] flex-col-reverse lg:flex-row
+}
+.story_row .story_text h2 {
+    @apply text-[45px] font-lora text-[#181820]
+}
+.story_row .story_text h2 span {
+    @apply relative z-[0]
+}
+.story_row .story_text h2 span::after {
+    content: '';
+    background-image: url(images/card2Drop.png);
+    @apply inline-block w-full h-[12px]
+    absolute bottom-[8px] right-0 z-[-1] bg-center bg-no-repeat bg-cover
+}
+.story_row .story_text p {
+    @apply text-[#1E1E1E] text-[13px] sm:text-[16px] md:text-[24px] font-lora w-full lg:w-[676px]
+}
+.story_row .story_text button {
+    @apply bg-brandColor rounded-[4px] font-lora font-semibold text-[14px]
+    text-white px-[24px] py-[13px] border-[1px] border-transparent transition-all
+}
+.story_row .story_text button:hover {
+    @apply  border-brandColor bg-white text-brandColor
+}
+#story .line {
+    @apply bg-[#E6E9EF] w-full lg:w-[453px] h-[1px] mt-[40px]
+}
