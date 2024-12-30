@@ -1,0 +1,24 @@
+#nav {
+    @apply hidden lg:block absolute w-full
+}
+.menu_row {
+    @apply py-[32px] flex justify-between items-center
+}
+
+
+.menu_row ul {
+    @apply flex gap-[32px]
+}
+.menu_row ul li a {
+    @apply text-text text-[16px] font-pop transition-all
+    hover:text-brandColor
+}
+.menu_row .menu_button {
+    @apply flex gap-1
+}
+.menu_row .menu_button a {
+    @apply text-[16px] font-pop font-semibold text-white
+    bg-brandColor rounded-[5px] py-[13px] px-[49px]
+    transition-all duration-[.4s]
+    hover:text-brandColor hover:bg-transparent
+}

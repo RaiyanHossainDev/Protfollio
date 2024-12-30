@@ -1,0 +1,38 @@
+#blog {
+    @apply bg-[#FEFCFB] py-[330px]
+}
+
+
+.blog_head {
+    @apply flex flex-col gap-[24px] items-center
+}
+.blog_head h2 {
+    @apply text-[48px] font-vol font-bold text-text
+}
+.blog_head h2 span {
+    @apply text-brandColor
+}
+
+
+.blogSlider_container {
+    @apply mt-[64px]
+}
+.blogSlider_container .slick-slider .slick-arrow {
+    @apply !hidden
+}
+
+/* == */
+.blogSlider_container .singleBlogCard h2 {
+    @apply text-[18px] font-medium font-pop text-text w-full lg:w-[244px]
+    mt-[24px] mb-[16px] 
+}
+.blogSlider_container .singleBlogCard p {
+    @apply text-[#999999] text-[16px] font-pop
+}
+
+/* ===== */
+.blogSlider_container .slick-slider ul .slick-active div{
+    @apply !w-[14px] !h-[14px] !bg-brandColor !rounded-full
+}
+
+

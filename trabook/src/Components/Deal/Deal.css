@@ -1,0 +1,95 @@
+#deal{
+    @apply bg-[#FEFCFB] py-[120px]
+}
+.deal_head {
+    @apply flex flex-col gap-[24px] items-center
+}
+.deal_head h2 {
+    @apply text-[48px] font-vol font-bold text-text
+}
+.deal_head h2 span {
+    @apply text-brandColor
+}
+.deal_head p {
+    @apply w-full lg:w-[482px] text-[16px] text-[#666666] font-pop
+    text-center 
+}
+
+
+/* ================================== /////////////////  */
+.dealSlider_container {
+    @apply mt-[64px] relative 
+}
+.singleDealCard {
+    @apply w-[270px]
+    shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+
+}
+.singleDealCard .card_text {
+    @apply py-[32px] px-[16px]
+}
+.singleDealCard .card_text h2 {
+    @apply text-[24px] font-medium font-pop text-text
+    flex justify-between
+}
+.singleDealCard .card_text h2 span {
+    @apply text-[16px] font-pop text-[#666666]
+    flex items-center gap-[2px]
+}
+.singleDealCard .card_text h2 span svg {
+    @apply text-yellow-400
+}
+.singleDealCard .card_text h4{
+    @apply text-[16px] text-[#666666]
+    flex justify-between items-center
+    mt-[18px]
+}
+.singleDealCard .card_text h4 h3{
+    @apply flex items-center gap-[8px]
+}
+.singleDealCard .card_text h4 span {
+    @apply flex gap-[16px]
+}
+.singleDealCard .card_text h4 span span {
+    @apply line-through
+}
+.singleDealCard .card_text h4 span p {
+    @apply py-[2px] px-[5px] text-brandColor bg-[#FFE7DB]
+    rounded-[8px]
+}
+.singleDealCard .cardImage {
+    @apply relative overflow-hidden
+}
+.singleDealCard .cardImage:hover .overlay{
+    @apply top-0
+}
+.singleDealCard .cardImage .overlay {
+    background-image: url(images/overlay.png);
+    @apply w-full h-full bg-cover bg-no-repeat bg-center 
+    absolute top-[-100%] left-0 flex justify-center items-center
+    transition-all duration-[.3s]
+}
+.singleDealCard .cardImage .overlay button {
+    @apply text-[18px] font-pop font-medium text-[#fff]
+    py-[11px] px-[21px] bg-brandColor rounded-[8px]
+}
+/* =====/////===== */
+.dealSlider_container .slick-slider .slick-arrow {
+    @apply !hidden
+}
+.dealSlider_container .arrows {
+    @apply flex justify-center gap-[24px] mt-[48px]
+}
+.dealSlider_container .arrows button{
+    @apply w-[40px] h-[40px] rounded-full border-[1px] text-[#999999]
+    text-[25px] flex justify-center items-center
+    transition-all
+}
+.dealSlider_container .arrows button:hover {
+    @apply bg-brandColor text-white
+}
+
+
+.dealSlider_container .slick-slider .slick-list .slick-track {
+    @apply md:!gap-[28px] flex 
+}

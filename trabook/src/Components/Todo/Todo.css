@@ -1,0 +1,48 @@
+#todo {
+    @apply py-[120px] bg-[#F7F8FC]
+}
+.todo_head {
+    @apply flex flex-col gap-[24px] items-center
+}
+.todo_head h2 {
+    @apply text-[48px] font-vol font-bold text-text
+}
+.todo_head h2 span {
+    @apply text-brandColor
+}
+.todo_head p {
+    @apply w-full lg:w-[482px] text-[16px] text-[#666666] font-pop
+    text-center 
+}
+
+/* ==================================================== */
+.todo_card {
+    @apply flex justify-center gap-[30px] flex-wrap
+    mt-[64px]
+}
+.todo_card .singleTodoCard {
+    @apply rounded-[8px] bg-[#fff] w-[370px] h-[278px]
+    relative
+}
+.singleTodoCard h3 {
+    @apply text-[24px] font-pop font-semibold text-text
+    mb-[16px] mt-[48px]
+}
+.singleTodoCard p {
+    @apply text-[16px] font-pop text-[#666666]
+    z-[232]
+}
+.todo_card .card2 .overlay {
+    background: url(images/todoline2.png);
+    @apply bg-center bg-no-repeat bg-cover w-full h-full
+}
+.todo_card .card3 .overlay ,.todo_card .card1 .overlay {
+    background: url(images/todoline1.png);
+    @apply bg-center bg-no-repeat bg-cover w-full h-full
+}
+.singleTodoCard .items {
+    @apply absolute top-[40px] left-[40px]
+}
+
+
+

@@ -1,0 +1,97 @@
+#plan{
+    @apply bg-[#FEFCFB] py-[120px]
+}
+.plan_head {
+    @apply flex flex-col gap-[24px] items-center
+}
+.plan_head h2 {
+    @apply text-[48px] font-vol font-bold text-text
+}
+.plan_head h2 span {
+    @apply text-brandColor
+}
+.plan_head p {
+    @apply w-full lg:w-[482px] text-[16px] text-[#666666] font-pop
+    text-center 
+}
+
+
+/* ================================== /////////////////  */
+.planSlider_container {
+    @apply mt-[64px] relative 
+}
+.singlePlanCard {
+    @apply w-[370px]
+    shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+
+}
+.singlePlanCard .card_text {
+    @apply py-[32px] px-[16px]
+}
+.singlePlanCard .card_text h2 {
+    @apply text-[24px] font-medium font-pop text-[#222222]
+    flex justify-between
+}
+.singlePlanCard .card_text h2 span {
+    @apply text-brandColor
+}
+.singlePlanCard .card_text h4 {
+    @apply text-[16px] mt-[16px]
+    flex justify-between
+}
+.singlePlanCard .card_text h3 {
+    @apply text-[#666666]
+    flex gap-[14px] items-center
+}
+.singlePlanCard .card_text h3 svg {
+    @apply text-brandColor
+}
+.singlePlanCard .card_text h4 span {
+    @apply flex items-center gap-[9px]
+}
+.singlePlanCard .card_text h4 span {
+    @apply text-[#666666]
+}
+.singlePlanCard .card_text h4 span svg {
+    @apply text-yellow-400
+}
+
+
+
+.singlePlanCard .cardImage {
+    @apply relative overflow-hidden
+}
+.singlePlanCard .cardImage:hover .overlay{
+    @apply top-0
+}
+.singlePlanCard .cardImage .overlay {
+    background-image: url(images/overlay.png);
+    @apply w-full h-full bg-cover bg-no-repeat bg-center 
+    absolute top-[-100%] left-0 flex justify-center items-center
+    transition-all duration-[.3s]
+}
+.singlePlanCard .cardImage .overlay button {
+    @apply text-[18px] font-pop font-medium text-[#fff]
+    py-[11px] px-[21px] bg-brandColor rounded-[8px]
+}
+/* =====/////===== */
+.planSlider_container .slick-slider .slick-arrow {
+    @apply !hidden
+}
+.planSlider_container .arrows {
+    @apply flex justify-end gap-[24px] mb-[24px]
+    2xl:mr-[111px]
+}
+.planSlider_container .arrows button{
+    @apply w-[40px] h-[40px] rounded-full border-[1px] text-[#999999]
+    text-[25px] flex justify-center items-center
+    transition-all
+}
+.planSlider_container .arrows button:hover {
+    @apply bg-brandColor text-white
+}
+
+
+.planSlider_container .slick-slider .slick-list .slick-track {
+    @apply md:!gap-[28px] flex 
+}

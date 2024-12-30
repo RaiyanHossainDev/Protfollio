@@ -1,0 +1,42 @@
+#footer {
+    @apply pt-[326px] pb-[48px] bg-[#F7F8FC]
+}
+
+.footer_row {
+    @apply flex lg:justify-between flex-wrap justify-center
+    gap-10 lg:gap-0
+}
+
+.footer_row .footer_text p {
+    @apply font-medium font-pop text-[16px] text-[#666666]
+    w-[254px] leading-[32px] mt-[24px] mb-[16px]
+}
+.footer_row .footer_text .icons {
+    @apply flex gap-[22px]
+}
+.footer_row .footer_text .icons a{
+    @apply w-[48px] h-[48px] rounded-full flex justify-center items-center
+    shadow-[0_3px_10px_rgb(0,0,0,0.2)] text-[#666666] text-[20px]
+    transition-all
+    hover:bg-brandColor hover:text-white
+}
+/* /////////=====//////// */
+.footer_row .footer_drop {
+    @apply flex gap-[130px] flex-wrap justify-center lg:justify-start
+}
+.singleFooterDrop h2{
+    @apply text-[18px] font-semibold font-pop text-text
+}
+.singleFooterDrop ul {
+    @apply mt-[32px] flex flex-col gap-[16px] 
+}
+.singleFooterDrop ul li a {
+    @apply text-[18px] font-pop text-[#666666]
+}
+/* ========////////////////============ */
+#footer .line {
+    @apply w-full h-[1px] bg-[#999999] my-[40px]
+}
+.footer_row2 h2 {
+    @apply font-pop text-[16px] text-[#666666]
+}

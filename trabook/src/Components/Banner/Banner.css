@@ -1,0 +1,53 @@
+#banner {
+    @apply pt-[114px] pb-[120px] bg-[#FEFCFB]
+}
+
+.banner_row {
+    @apply flex items-center justify-between
+    flex-col-reverse lg:flex-row gap-[20px] lg:gap-0
+    w-full
+}
+.banner_row .banner_text {
+    @apply flex flex-col items-center lg:items-start
+}
+.banner_row .banner_text h1 {
+    @apply font-bold font-vol text-text text-[30px] md:text-[50px] lg:text-[64px]
+    w-full lg:w-[521px] leading-[35px] md:leading-[60px] lg:leading-[70px]
+    text-center lg:text-start
+}
+.banner_row .banner_text h1 span {
+    @apply text-brandColor
+}
+.banner_row .banner_text p {
+    @apply text-[16px] lg:text-[20px] text-[#666666] font-pop w-full lg:w-[497px]
+    leading-[25px] lg:leading-[40px] text-center lg:text-start
+    mt-[32px] mb-[64px]
+}
+.banner_row .banner_text button {
+    @apply text-brandColor font-pop font-medium text-[18px]
+    py-[14px] px-[28px] border-[1px] border-brandColor rounded-[5px]
+    transition-all
+    hover:text-text hover:bg-brandColor
+}
+
+/* =================//////////////////////================ */
+.banner_explore {
+    @apply flex lg:gap-[100px] py-[32px] px-[24px] mt-[59px] flex-wrap
+    justify-center  gap-[50px]
+    bg-[#ffffff] rounded-[10px]
+    shadow-[0_3px_10px_rgb(0,0,0,0.2)]
+}
+.banner_explore .single_explore h2{
+    @apply text-[16px] font-medium font-pop text-text
+    flex
+}
+.banner_explore .single_explore h2 svg {
+    @apply text-brandColor text-[20px]
+}
+.banner_explore .single_explore p {
+    @apply text-[#666666] font-pop text-[12pz]
+}
+.banner_explore button {
+    @apply font-pop font-medium text-[18px] text-white bg-brandColor
+    py-[14px] px-[24px] rounded-[5px]
+}

@@ -1,0 +1,32 @@
+#about {
+    @apply bg-[#F7F8FC] py-[120px]
+}
+.about_row {
+    @apply flex items-center justify-between flex-col-reverse lg:flex-row
+}
+.about_row .about_text {
+    @apply flex flex-col 
+}
+.about_row .about_text h2 {
+    @apply text-[48px] font-vol font-bold text-text
+    w-full lg:w-[387px]
+}
+.about_row .about_text h2 span {
+    @apply text-brandColor
+}
+.about_row .about_text p {
+    @apply w-full lg:w-[482px] text-[16px] text-[#666666] font-pop
+    mt-[24px] mb-[32px]
+}
+/* ===================================== */
+.about_row .about_text .arrows {
+    @apply flex justify-start gap-[24px]
+}
+.about_row .about_text .arrows button{
+    @apply w-[40px] h-[40px] rounded-full border-[1px] text-[#999999]
+    text-[25px] flex justify-center items-center
+    transition-all
+}
+.about_row .about_text .arrows button:hover {
+    @apply bg-brandColor text-white
+}

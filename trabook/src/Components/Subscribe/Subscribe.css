@@ -1,0 +1,33 @@
+#sub {
+    @apply absolute w-full xl:w-[1170px] top-[-552px] left-[50%] translate-x-[-50%]
+    px-[15px] sm:px-0
+}
+
+
+.sub_col {
+    background-image: url(images/subBG.png);
+    @apply bg-cover bg-center bg-no-repeat py-[80px]
+    flex flex-col items-center gap-[64px] rounded-[16px]
+    px-[30px]
+}
+
+.sub_col h2 {
+    @apply text-[20px] sm:text-[30px] md:text-[48px] font-bold font-vol text-white
+    w-full lg:w-[708px] text-center 
+}
+.sub_col .mailBar {
+    @apply w-full lg:w-[674px] bg-white rounded-[10px] px-[12px] flex-col sm:flex-row 
+    flex items-center gap-[4px]
+}
+.sub_col .mailBar input {
+    @apply border-none outline-none bg-transparent h-[68px]
+    text-[16px] font-pop w-full pl-[10px]
+}
+
+.sub_col .mailBar button {
+    @apply font-pop text-white text-[16px] bg-brandColor
+    rounded-[8px] px-[26px] py-[13px]
+}
+.sub_col .mailBar svg {
+    @apply text-[25px] text-[#666666]
+}

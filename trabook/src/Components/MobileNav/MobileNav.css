@@ -1,0 +1,30 @@
+#MobileNav {
+    @apply lg:hidden absolute w-full
+}
+.MobileMenu_row {
+    @apply py-[32px] flex justify-between items-center gap-3 sm:gap-0
+    relative
+}
+.MobileMenu_row .drp_menu svg {
+    @apply text-[25px] cursor-pointer
+}
+.MobileMenu_row .main_menu ul {
+    @apply flex gap-[20px] py-[10px] px-[20px] bg-brandColor rounded-lg
+    flex-col sm:flex-row
+}
+.MobileMenu_row .main_menu {
+    @apply absolute top-[90px] translate-x-[-50%] transition-all
+}
+.MobileMenu_row .main_menu ul li a {
+    @apply text-white text-[16px] font-pop transition-all
+    hover:text-text
+}
+.MobileMenu_row .menu_button {
+    @apply flex gap-1
+}
+.MobileMenu_row .menu_button a {
+    @apply text-[10px] sm:text-[16px] font-pop font-semibold text-white
+    bg-brandColor rounded-[5px] py-[4px] sm:py-[13px] px-[8px] sm:px-[49px]
+    transition-all duration-[.4s]
+    hover:text-brandColor hover:bg-transparent
+}
