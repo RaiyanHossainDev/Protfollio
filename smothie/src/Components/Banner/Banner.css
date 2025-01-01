@@ -1,0 +1,58 @@
+#banner {
+    @apply pt-[350px] sm:pt-[299px] pb-[429px] sm:pb-[395px] md:pb-[890px] 2xl:py-[299px] relative overflow-hidden transition-all
+}
+.banner_row {
+    @apply flex flex-col
+}
+.banner_row .banner_text h1 {
+    @apply font-bri text-[35px] sm:text-[80px] w-full lg:w-[605px] leading-[85px] font-semibold
+}
+.banner_row .banner_text p {
+    @apply text-[18px] sm:text-[26px] font-bee w-full lg:w-[520px]
+    mt-[51px] mb-[62px] 
+}
+.banner_row .banner_text .banner_bowls {
+    @apply flex gap-[30px] flex-wrap justify-center sm:justify-start
+}
+.banner_row .banner_text .banner_bowls button {
+    @apply flex flex-col items-center gap-[18px]
+}
+.banner_row .banner_text .banner_bowls button::after {
+    content: '';
+    @apply inline-block w-[107px] h-[5px] transition-all
+}
+.banner_row .banner_text .banner_bowls .minbanana:hover::after {
+    @apply w-[53px] bg-[#CAB449]
+}
+.banner_row .banner_text .banner_bowls .minkiwi:hover::after {
+    @apply w-[53px] bg-[#4A7107]
+}
+.banner_row .banner_text .banner_bowls .minstraw:hover::after {
+    @apply w-[53px] bg-[#BF676B]
+}
+.banner_row .banner_text .banner_bowls .minblue:hover::after {
+    @apply w-[53px] bg-[#FFC1E6]
+}
+
+/* == */
+
+.banner_row .banner_image {
+    @apply w-[1000px] h-[1000px] md:w-[1345px] md:h-[1345px] rounded-full transition-all duration-[.7s]
+    absolute
+    right-[-341px] bottom-[-776px]
+}
+.banner_row .banner_image img {
+    @apply absolute w-[280px] md:w-[600px]
+}
+.banner_row .banner_image .banana {
+    @apply top-[-170px] md:top-[-320px] left-[50%] translate-x-[-50%]
+}
+.banner_row .banner_image .kiwi {
+    @apply bottom-[-170px] md:bottom-[-320px] left-[50%] translate-x-[-50%]
+}
+.banner_row .banner_image .straw {
+    @apply top-[50%] left-[-170px] md:left-[-320px] translate-y-[-50%]
+}
+.banner_row .banner_image .blue {
+    @apply top-[50%] right-[-170px] md:right-[-320px] translate-y-[-50%]
+}

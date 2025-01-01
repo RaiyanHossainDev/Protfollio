@@ -1,0 +1,22 @@
+#mobileNav {
+    @apply absolute top-[63px] w-full z-[999999]
+    md:hidden
+}
+
+.mobileMenu_row  {
+    @apply flex justify-between items-center
+    relative
+}
+.mobileMenu_row .main_menu svg {
+    @apply text-[30px] cursor-pointer 
+    hover:animate-bounce
+}
+.mobileMenu_row .main_menu ul {
+    @apply flex gap-[20px] sm:gap-[30px] justify-center transition-all
+    flex-col sm:flex-row
+    absolute top-[80px] translate-x-[-50%]
+    w-full
+}
+.mobileMenu_row .main_menu ul li a {
+    @apply font-bee text-[22px]
+}

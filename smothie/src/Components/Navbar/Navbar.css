@@ -1,0 +1,14 @@
+#nav {
+    @apply absolute top-[63px] w-full z-[999999]
+    hidden md:block 
+}
+
+.menu_row  {
+    @apply flex justify-between items-center
+}
+.menu_row .main_menu ul {
+    @apply flex gap-[30px]
+}
+.menu_row .main_menu ul li a {
+    @apply font-bee text-[22px]
+}
