@@ -1,0 +1,30 @@
+#service {
+    @apply bg-[#F6F6F6] pt-[80px] pb-[113px]
+}
+.service_head {
+    @apply flex flex-col lg:flex-row justify-center lg:justify-between items-center
+}
+.service_head h2{
+    @apply text-[46px] text-[#242527] font-semibold font-pop w-[304px]
+}
+.service_head p {
+    @apply text-[18px] text-[#C4C4C4] font-medium font-pop w-full lg:w-[561px]
+}
+
+
+
+
+/* === */
+.service_card {
+    @apply flex gap-[60px] lg:gap-0 lg:justify-between mt-[80px] flex-wrap
+    justify-center
+}
+.service_card .single_service_card {
+    @apply flex flex-col gap-[37px]
+}
+.service_card .single_service_card h2 {
+    @apply text-[#242527] font-semibold text-[28px] font-pop
+}
+.service_card .single_service_card p {
+    @apply w-full sm:w-[333px] text-[18px] text-[#C4C4C4] font-medium font-pop
+}

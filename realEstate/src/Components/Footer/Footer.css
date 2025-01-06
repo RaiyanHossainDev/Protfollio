@@ -1,0 +1,41 @@
+footer {
+    @apply pt-[847px] lg:pt-[420px] pb-[134px]
+    bg-gradient-to-br from-gray-500 to-slate-800 
+    relative
+}
+
+.footer_row {
+    @apply flex lg:justify-between flex-col lg:flex-row gap-20 items-center
+    lg:gap-0
+}
+.footer_row .footer_text{
+    @apply flex flex-col gap-[32px]
+}
+.footer_row .footer_text h2 {
+    @apply text-[16px] font-semibold font-pop text-white
+}
+.footer_row .footer_text p {
+    @apply text-[16px] text-white  w-full md:w-[547px] font-normal
+}
+.footer_row .footer_text .footer_media {
+    @apply flex gap-[6px]
+}
+.footer_row .footer_text .footer_media a {
+    @apply w-[40px] h-[40px] rounded-full bg-[#0008ff32]
+    flex justify-center items-center text-white
+}
+
+
+/* //////// */
+.footer_row .footer_item {
+    @apply flex gap-[93px]
+}
+.footer_row .footer_item .single_item h2 {
+    @apply font-bold text-white text-[18px] font-pop
+}
+.footer_row .footer_item .single_item ul {
+    @apply flex flex-col gap-[25px] mt-[33px]
+}
+.footer_row .footer_item .single_item ul li {
+    @apply font-pop text-white text-[16px]
+}

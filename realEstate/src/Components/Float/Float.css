@@ -1,0 +1,35 @@
+#float {
+    @apply absolute top-[-237px] left-[50%] translate-x-[-50%]
+    w-full sm:w-fit
+}
+
+.float_row {
+    @apply bg-gradient-to-br from-gray-500 to-slate-800 
+    flex gap-[72px] flex-col lg:flex-row
+    pt-[65px] pb-[90px] pl-[59px] pr-[67px]
+}
+.float_row .float_text h2 {
+    @apply font-semibold font-pop text-[19px] sm:text-[36px] text-white
+    w-full sm:w-[448px]
+}
+.float_row .float_text p {
+    @apply font-medium text-[15px] sm:text-[18px] text-[#C4C4C4] font-pop w-full sm:w-[465px]
+    mt-[44px] mb-[91px]
+}
+.float_row .float_slider .slick-slider {
+    @apply !w-[226px] sm:!w-[401px]
+}
+.float_row .float_slider .slick-slider .slick-arrow {
+    @apply !text-white text-[30px] bg-brand transition-all
+    cursor-pointer
+    absolute bottom-[-380px] lg:bottom-0
+}
+.float_row .float_slider .slick-slider .slick-arrow:hover {
+    @apply bg-transparent
+}
+.float_row .float_slider .slick-slider .slick-prev {
+    @apply lg:right-[-422px]
+}
+.float_row .float_slider .slick-slider .slick-next {
+    @apply lg:right-[-475px] right-0
+}

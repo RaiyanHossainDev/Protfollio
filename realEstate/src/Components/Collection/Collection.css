@@ -1,0 +1,36 @@
+#coll {
+    @apply pb-[378px]
+}
+
+
+
+.coll_head h2 {
+    @apply font-semibold font-pop text-[#242527] text-[40px] sm:text-[46px] w-full sm:w-[326px]
+}
+
+
+
+.coll_card {
+    @apply flex xl:justify-between flex-wrap justify-center gap-20 xl:gap-0
+    mt-[38px]
+}
+.coll_card .single_coll_card {
+    @apply relative overflow-hidden flex
+}
+.coll_card .single_coll_card:hover .popUp {
+    @apply bottom-[11px]
+}
+.coll_card .single_coll_card .popUp {
+    @apply py-[16px] bg-white w-[253px]
+    flex gap-[29px] items-center transition-all justify-center
+    absolute bottom-[-130px] left-[50%] translate-x-[-50%]
+}
+.coll_card .single_coll_card .popUp .text h2 {
+    @apply text-[16px] text-[#242527] font-semibold font-pop
+}
+.coll_card .single_coll_card .popUp .text p {
+    @apply font-medium text-[#C4C4C4] text-[12px] font-pop
+}
+.coll_card .single_coll_card .popUp .ico {
+    @apply p-[16px] bg-brand text-white text-[25px]
+}

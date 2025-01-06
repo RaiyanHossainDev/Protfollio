@@ -1,0 +1,16 @@
+nav {
+    @apply absolute top-[48px] z-[99999]
+    w-full
+}
+#MobileNav {
+    @apply lg:hidden
+}
+#MobileNav .main_menu {
+    @apply flex justify-center items-center
+}
+#MobileNav .main_menu ul {
+    @apply flex gap-[30px] flex-wrap justify-center items-center
+}
+#MobileNav .main_menu ul li a {
+    @apply font-pop text-[18px]
+}

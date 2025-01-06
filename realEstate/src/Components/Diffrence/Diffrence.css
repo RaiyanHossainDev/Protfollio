@@ -1,0 +1,36 @@
+#diffrence {
+    @apply pt-[74px] pb-[113px]
+}
+.diffrence_head h2::before {
+    content: '';
+    @apply inline-block w-[90px] h-[9px] bg-gradient-to-r from-sky-400 to-sky-800 
+    ml-[15px]
+}
+.diffrence_head {
+    @apply flex flex-col lg:flex-row justify-center lg:justify-between items-center
+}
+.diffrence_head h2{
+    @apply text-[40px] sm:text-[46px] text-[#242527] font-semibold font-pop w-full sm:w-[334px]
+    flex flex-col gap-[40px]
+}
+.diffrence_head p {
+    @apply text-[18px] text-[#C4C4C4] font-medium font-pop w-full lg:w-[561px]
+}
+
+
+
+/* ===////=== */
+.diffrence_card {
+    @apply flex lg:justify-between flex-wrap justify-center gap-[70px]
+    mt-[65px]
+}
+.diffrence_card .single_diffrence_card {
+    @apply flex flex-col gap-[25px] items-start
+}
+.diffrence_card .single_diffrence_card h2 {
+    @apply text-[24px] text-[#242527] font-semibold font-pop
+}
+.diffrence_card .single_diffrence_card p {
+    @apply text-[18px] font-medium font-pop text-[#C4C4C4]
+    leading-[40px] w-[263px]
+}

@@ -1,0 +1,32 @@
+#news {
+    @apply pb-[95px]
+}
+.news_head h2 {
+    @apply font-semibold font-pop text-[#242527] text-[46px]
+}
+
+
+.news_card {
+    @apply flex justify-between mt-[38px] flex-col lg:flex-row
+    gap-20 lg:gap-5 xl:gap-0
+}
+.single_news_card {
+    @apply flex flex-col items-center
+}
+.single_news_card h2{
+    @apply flex gap-[15px] items-center mt-[21px] mb-[25px]
+}
+.single_news_card h2 h3 {
+    @apply text-[28px] font-semibold font-pop text-[#242527]
+    flex flex-col
+}
+.single_news_card h2 h3 span {
+    @apply text-[14px]
+}
+.single_news_card h2 p {
+    @apply text-[16px] font-semibold font-pop text-[#242527]
+    w-[236px]
+}
+.single_news_card p {
+    @apply text-[14px] sm:text-[18px] text-[#C4C4C4] font-pop w-[271px] sm:w-[318px]
+}

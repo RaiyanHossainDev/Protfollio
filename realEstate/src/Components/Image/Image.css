@@ -1,0 +1,6 @@
+#image {
+    @apply py-[54px]
+}
+#image .image_row {
+    @apply flex items-center lg:justify-between flex-wrap gap-[96px] justify-center
+}

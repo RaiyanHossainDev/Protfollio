@@ -1,0 +1,22 @@
+#story {
+    @apply pt-[132px] pb-[121px]
+}
+
+
+.story_row{
+    @apply flex lg:justify-between flex-col lg:flex-row items-center
+    gap-[100px] lg:gap-0
+}
+.story_row .story_text h2 {
+    @apply font-semibold font-pop text-[#242527] text-[46px]
+    w-[275px]
+}
+
+.story_row .story_text p {
+    @apply text-[15px] sm:text-[18px] font-medium font-pop text-[#C4C4C4]
+    w-full sm:w-[551px] mt-[24px] mb-[49px]
+}
+.story_row .story_text a {
+    @apply text-[16px] font-semibold font-pop text-white
+    py-[20px] px-[40px] bg-brand
+}

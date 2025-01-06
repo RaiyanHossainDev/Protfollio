@@ -1,0 +1,29 @@
+#team {
+    @apply pt-[132px]
+}
+
+.team_row {
+    @apply flex justify-center lg:justify-between lg:items-end flex-col xl:flex-row gap-[100px]
+    xl:gap-0
+}
+.team_row .team_text h2 {
+    @apply text-[26px] md:text-[46px] font-semibold font-pop text-[#242527]
+    w-full sm:w-[493px]
+}
+.team_row .team_text p {
+    @apply text-[14px] md:text-[18px] font-medium font-pop text-[#C4C4C4]
+    w-full sm:w-[439px] mt-[36px] mb-[59px]
+}
+
+
+.team_row .team_text .buttons {
+    @apply flex gap-[20px] md:gap-[27px] items-center
+}
+.team_row .team_text .buttons .btn1 {
+    @apply text-[14px] md:text-[16px] font-semibold font-pop text-[#FFFFFF]
+    px-[10px] md:px-[40px] py-[5px] md:py-[20px] bg-[#0A72AD]
+}
+.team_row .team_text .buttons .btn2 {
+    @apply text-[18px] font-semibold font-pop  text-[#242527]
+    flex gap-[16px] items-center
+}

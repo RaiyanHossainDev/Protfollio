@@ -1,0 +1,87 @@
+#banner {
+    @apply pt-[200px] lg:pt-[48px] bg-cover bg-no-repeat bg-center relative;
+    background-image: url(images/banner-bg.png);
+}
+
+
+
+.banner_row .banner_text h3 span{
+    @apply font-pop font-medium text-[18px] text-white
+}
+.banner_row .banner_text h3 p {
+    @apply text-[24px] font-bold font-pop text-brand
+}
+.banner_row .banner_text h1 {
+    @apply text-white font-medium font-pop text-[30px] lg:text-[64px]
+    w-full lg:w-[654px]
+    mt-[36px] mb-[24px]
+}
+.banner_row .banner_text p {
+    @apply text-[18px] font-medium font-pop text-[#C4C4C4]
+    w-full lg:w-[579px] leading-[27px]
+}
+.banner_row .banner_text button {
+    @apply text-[16px] font-semibold font-pop text-white
+    px-[40px] py-[20px]
+    bg-gradient-to-r from-sky-400 to-sky-800 
+    mt-[62px] mb-[43px]
+}
+
+
+
+
+
+.banner_row .banner_text .slates {
+    @apply flex justify-between pb-[300px] xl:pb-[54px]
+}
+.banner_row .banner_text .slates .counter {
+    @apply flex gap-[51px] flex-wrap justify-center lg:justify-start
+}
+.banner_row .banner_text .slates .counter .single_card .num {
+    @apply flex items-center
+}
+.banner_row .banner_text .slates .counter .single_card .num h2 {
+    @apply text-[36px] text-white font-bold font-pop
+}
+.banner_row .banner_text .slates .counter .single_card .num svg {
+    @apply text-brand text-[25px]
+}
+.banner_row .banner_text .slates .counter .single_card h3 {
+    @apply text-[18px] font-semibold text-[#C4C4C4] font-pop w-[101px]
+}
+
+
+
+
+.banner_row .banner_text .slates .year {
+    @apply py-[36px] pl-[32px] w-full lg:w-[745px] bg-gradient-to-r from-sky-400 to-sky-800 
+    text-white font-pop
+    flex items-center gap-[41px] flex-wrap
+    absolute right-0 bottom-0
+}
+.banner_row .banner_text .slates .year .single_text h2 {
+    @apply text-[18px] text-white font-medium font-pop
+}
+.banner_row .banner_text .slates .year .single_text h3 {
+    @apply text-[24px] text-white font-medium font-pop mt-1
+}
+
+.banner_row .banner_text .slates .year .single_text2 {
+    @apply relative
+}
+.banner_row .banner_text .slates .year .single_text2 img {
+    @apply absolute top-0 right-[-30px]
+}
+
+.banner_row .banner_text .slates .year .single_text2 h2{
+    @apply text-[36px] font-bold
+}
+.banner_row .banner_text .slates .year .single_text2 h2 span {
+    @apply font-medium text-[18px]
+}
+.banner_row .banner_text .slates .year .single_text2 h3 {
+    @apply font-semibold text-[24px]
+}
+.banner_row .banner_text .slates .year .single_text3 h3 {
+    @apply text-[14px] w-full lg:w-[333px] leading-[30px]
+}
