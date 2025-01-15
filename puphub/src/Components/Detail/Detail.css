@@ -1,0 +1,14 @@
+
+
+.detail_row  {
+    @apply flex justify-between items-center flex-col-reverse lg:flex-row
+}
+.detail_row .detail_text {
+    @apply flex flex-col items-start
+}
+.detail_row .detail_text h2{
+    @apply text-[34px] font-pang w-full sm:w-[508px]
+}
+.detail_row .detail_text p {
+    @apply text-[19px] text-[#4E4C46] font-robot w-full sm:w-[533px] mt-[15px] mb-[55px]
+}

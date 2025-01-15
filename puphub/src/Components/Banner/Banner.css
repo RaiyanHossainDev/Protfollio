@@ -1,0 +1,19 @@
+#banner {
+    @apply pt-[151px] pb-[68px];
+    background: url(images/bannerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_row {
+    @apply flex items-center justify-between flex-col-reverse lg:flex-row
+}
+.banner_row .banner_text{
+    @apply flex flex-col items-start
+}
+.banner_row .banner_text h1 {
+    @apply text-[44px] w-full sm:w-[506px] font-pang 
+
+}
+.banner_row .banner_text p {
+    @apply text-[#181817] text-[19px] font-robot mt-[30px] mb-[53px]
+}

@@ -1,0 +1,7 @@
+a.commonButton  {
+    @apply py-[24px] px-[35px] text-white text-[16px] font-bee bg-brand rounded-[5px]
+    flex items-center gap-[14px]
+}
+a.commonButton svg{
+    @apply text-[25px]
+}

@@ -1,0 +1,22 @@
+#MobileNav {
+    @apply pt-[39px] lg:hidden
+}
+.MobileMenu_row {
+    @apply flex justify-between items-center relative gap-2
+}
+.MobileMenu_row .main_menu ul {
+    @apply flex flex-col gap-[30px] absolute left-0  top-[60px] bg-[#FFAA00]
+    w-full py-5 rounded-2xl px-5
+}
+.MobileMenu_row .main_menu ul li a {
+    @apply font-bee text-[15px] text-white py-2 hover:bg-black px-10 w-full
+    inline-block text-center transition-all rounded-lg
+}
+.MobileMenu_row .menu_button {
+    @apply flex gap-[14px]
+}
+.MobileMenu_row .menu_button a {
+    @apply py-[10px] sm:py-[15px] px-[15px] sm:px-[41px] bg-[#C7E7E1] rounded-[5px]
+    text-[#124C5F] font-bee text-[12px] sm:text-[16px] transition-all
+    hover:text-[#fff] hover:bg-[#124C5F]
+}

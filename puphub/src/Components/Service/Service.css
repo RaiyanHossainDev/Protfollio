@@ -1,0 +1,26 @@
+#service{
+    @apply pt-[104px] pb-[113px]
+}
+
+.service_head h2{
+    @apply font-pang text-[28px]
+}
+.service_head h2::after {
+    content: '';
+    @apply block w-[117px] h-[4px] bg-[#3A8DA8]
+}
+.services {
+    @apply flex items-center justify-between mt-[66px] flex-wrap gap-10;
+}
+.services .singleServiceCard {
+    @apply px-[54px] pt-[53px] pb-[37px] border-[1px] border-[#98F2E1]
+    rounded-[25px] transition-all
+    flex flex-col items-center gap-[17px]
+    hover:border-[#FFEE94]
+}
+.services .singleServiceCard:hover {
+    background: linear-gradient(180deg, rgba(255,238,148,1) 0%, rgba(255,255,255,1) 100%);
+}
+.services .singleServiceCard h2 {
+    @apply text-[20px] font-robot
+}

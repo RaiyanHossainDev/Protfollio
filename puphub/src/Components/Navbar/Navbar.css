@@ -1,0 +1,20 @@
+#nav {
+    @apply pt-[39px] hidden lg:block
+}
+.menu_row {
+    @apply flex justify-between items-center
+}
+.menu_row .main_menu ul {
+    @apply flex gap-[57px]
+}
+.menu_row .main_menu ul li a {
+    @apply font-bee text-[15px]
+}
+.menu_row .menu_button {
+    @apply flex gap-[14px]
+}
+.menu_row .menu_button a {
+    @apply py-[15px] px-[41px] bg-[#C7E7E1] rounded-[5px]
+    text-[#124C5F] font-bee text-[16px] transition-all
+    hover:text-[#fff] hover:bg-[#124C5F]
+}

@@ -1,0 +1,24 @@
+#speak {
+    @apply pt-[41px]
+}
+.speak_row {
+    @apply flex justify-between flex-col lg:flex-row gap-20 lg:gap-0
+}
+.speak_row .speakimg {
+    @apply relative 
+}
+.speak_row .speakimg a {
+    @apply absolute top-0 right-5
+}
+.speak_row .speakText {
+    @apply flex flex-col items-start relative
+}
+.speak_row .speakText h2 {
+    @apply text-[34px] font-pang w-full sm:w-[510px]
+}
+.speak_row .speakText p {
+    @apply font-robot text-[19px] w-full sm:w-[533px] mt-[18px] mb-[50px]
+}
+.speak_row .speakText img {
+    @apply absolute top-[-100px] right-0
+}
