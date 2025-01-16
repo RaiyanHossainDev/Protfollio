@@ -4,6 +4,7 @@ import Service from '../Components/Service/Service'
 import Speak from '../Components/Speak/Speak'
 import Food from '../Components/Food/Food'
 import Detail from '../Components/Detail/Detail'
+import Rating from '../Components/Rating/Rating'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Speak/>
       <Food/>
       <Detail/>
+      <Rating/>
     </div>
   )
 }

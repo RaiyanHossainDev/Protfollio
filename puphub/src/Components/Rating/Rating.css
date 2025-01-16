@@ -1,0 +1,35 @@
+#rate  {
+    @apply pt-[42px] ;
+    background: linear-gradient(90deg, rgba(255,255,246,1) 0%, rgba(255,255,255,1) 100%);
+
+}
+.rating_col {
+    @apply flex flex-col
+}
+.rating_head h2 {
+    @apply font-pang text-[28px]
+}
+.rating_head h2::after {
+    content: '';
+    @apply block w-[117px] h-[4px] bg-[#3A8DA8]
+}
+
+
+.ratingCard {
+    @apply flex lg:justify-between items-end mt-[27px] flex-wrap gap-10 justify-center
+}
+.singleRatingCard .card_text {
+    @apply bg-brand flex flex-col items-center pt-[19px] pb-[35px]
+}
+.singleRatingCard .card_text h2 {
+    @apply text-[28px] text-[#DDCA69] font-robot
+}
+.singleRatingCard .card_text p {
+    @apply text-white text-[14px] font-robot mt-[8px] mb-[14px]
+}
+.singleRatingCard .card_text .rates {
+    @apply flex items-center gap-[13px]
+}
+.singleRatingCard .card_text .rates span {
+    @apply font-robot text-white text-[14px]
+}

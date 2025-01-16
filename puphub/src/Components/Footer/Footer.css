@@ -1,0 +1,60 @@
+footer {
+    @apply bg-[#F6FAF9] pt-[85px] mt-[97px]
+}
+.footer_head {
+    @apply flex flex-col items-center gap-[57px]
+}
+.footer_head h2 {
+    @apply font-pang text-[34px]
+}
+.footer_head .bar {
+    @apply bg-white pt-[33px] pb-[21px] px-[38px] flex
+    items-center gap-[25px] lg:ml-[51px] flex-col lg:flex-row
+}
+.footer_head .bar svg {
+    @apply text-[#D2CFCF] text-[25px]
+}
+.footer_head .bar input {
+    @apply outline-none border-none w-full sm:w-[396px]
+    font-robot text-[19px]
+}
+
+.footer_row  {
+    @apply flex md:justify-between flex-col md:flex-row items-center lg:items-start gap-16
+    mt-[101px] mb-[41px]
+}
+.footer_row .footer_text h2 {
+    @apply text-[14px] font-robot font-bold
+}
+
+.footer_row .footer_items  {
+    @apply flex gap-[48px] flex-wrap justify-center
+}
+.footer_items .singleItem h3 {
+    @apply font-bold font-robot
+}
+.footer_items .singleItem h2 {
+    @apply font-bold text-[22px] font-robot text-[#124C5F] my-[12px]
+}
+.footer_items .singleItem p {
+    @apply text-[18px] font-robot text-[#757777] w-[247px]
+}
+
+/*  */
+footer .line {
+    @apply w-full h-[1px] bg-[#C7C7C7]
+}
+
+/*  */
+.footer_foot {
+    @apply flex justify-between my-[30px] flex-wrap gap-10
+}
+.footer_foot h2 {
+    @apply text-[16px] text-[#414141] font-robot
+}
+.footer_foot ul {
+    @apply flex gap-[30px] lg:gap-[57px] flex-wrap
+}
+.footer_foot ul li a {
+    @apply font-pang text-[14px]
+}
