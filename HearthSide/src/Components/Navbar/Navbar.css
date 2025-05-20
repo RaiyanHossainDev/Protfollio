@@ -1,0 +1,32 @@
+#nav {
+    @apply py-[24px] bg-[#EEDCC9] hidden lg:block
+}
+
+.menu_row {
+    @apply flex items-center justify-between
+}
+.menu_row .main_menu ul {
+    @apply flex items-center gap-[48px]
+}
+.menu_row .main_menu ul li a {
+    @apply font-DM text-[16px] text-[#452112] font-semibold
+}
+
+
+/*  */
+.menu_row .menu_buttons {
+    @apply flex items-center gap-[11px]
+}
+.menu_row .menu_buttons a {
+    @apply py-[9px] px-[24px] rounded-[12px] text-[16px] font-semibold font-DM ;
+    -webkit-box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+}
+.menu_row .menu_buttons a.download {
+    @apply text-[#003363] ;
+    background: linear-gradient(90deg, rgba(100,219,245,1) 0%, rgba(173,227,239,1) 100%);
+}
+.menu_row .menu_buttons a.sign {
+    @apply text-[#452112] bg-[#F1E6DA]
+}

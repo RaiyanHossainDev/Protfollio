@@ -1,0 +1,23 @@
+#award {
+    @apply mt-[151px]
+}
+
+.award_row {
+    @apply flex justify-center gap-[62px]
+}
+.award_row .award_text {
+    @apply mr-[-153px] z-10
+}
+.award_row .award_text h2 {
+    @apply w-[332px] text-[80px] font-cormo leading-[80px]
+}
+.award_row .award_vid {
+    @apply z-0
+}
+.award_row ul {
+    @apply flex flex-col gap-2 self-center
+}
+.award_row ul li{
+    @apply text-[20px] font-DM hover:text-[#EF0101] transition-all duration-150
+    cursor-pointer
+}

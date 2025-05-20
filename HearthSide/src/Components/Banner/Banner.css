@@ -1,0 +1,74 @@
+#banner {
+    @apply py-[365px];
+    background: url(images/bannerBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*  */
+.banner_row .banner_text {
+    @apply flex flex-col items-start
+}
+.banner_row .banner_text h1 {
+    @apply text-[#452112] text-[64px] font-prata w-full sm:w-[375px] leading-[76px]
+}
+.banner_row .banner_text p {
+    @apply text-[#744F40] text-[18px] font-DM w-full sm:w-[427px]
+}
+.banner_row .banner_text a {
+    @apply text-[#003363] py-[9px] px-[24px] rounded-[12px] inline-block text-[16px] font-semibold font-DM mt-[34px];
+    -webkit-box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 13px -6px rgba(0,0,0,0.75);
+    background: linear-gradient(90deg, rgba(100,219,245,1) 0%, rgba(173,227,239,1) 100%);
+}
+.banner_row .banner_text h1 pre {
+    @apply flex items-center mt-[13px] mb-[29px] justify-center w-full
+}
+.banner_row .banner_text h1 pre::after {
+    content: '';
+    @apply inline-block bg-[#FFAB53] w-[183px] h-[1px] ;
+    animation: star ease infinite 1s;
+}
+.banner_row .banner_text h1 pre::before {
+    content: '';
+    @apply inline-block bg-[#FFAB53] w-[183px] h-[1px] rotate-[180deg];
+    animation: star ease infinite 1s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ================== animation ==================== */
+@keyframes star {
+    1%{
+        @apply w-0 h-[1px] opacity-[10]
+    }
+    25%{
+        @apply opacity-[8] h-[2px]
+    }
+    50% {
+        @apply opacity-[5] h-[2px]
+    }
+    100%{
+        @apply w-[183px] h-[1px] opacity-[0]
+    }
+}

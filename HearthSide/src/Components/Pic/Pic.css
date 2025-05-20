@@ -1,0 +1,62 @@
+#pic {
+    @apply bg-[#F1E6DA] pt-[88px] pb-[268px]
+}
+
+
+
+
+
+
+
+
+.pic_col {
+    @apply flex flex-col gap-[88px]
+}
+.pic_col .singlePicCard {
+    @apply flex justify-between items-center flex-col xl:flex-row gap-10 lg:gap-0
+}
+.pic_col .singlePicCard .text h2{
+    @apply text-[32px] md:text-[48px] font-prata text-[#452112] w-full sm:w-[575px]
+}
+.pic_col .singlePicCard .text p {
+    @apply text-[18px]
+}
+.pic_col .singlePicCard .text h2 pre {
+    @apply flex items-center mt-[13px] mb-[29px] justify-center w-full 
+}
+.pic_col .singlePicCard .text h2 pre::after {
+    content: '';
+    @apply inline-block bg-[#FFAB53] w-full h-[1px] ;
+    animation: star ease infinite 1s;
+}
+.pic_col .singlePicCard .text h2 pre::before {
+    content: '';
+    @apply inline-block bg-[#FFAB53] w-full h-[1px] rotate-[180deg];
+    animation: star ease infinite 1s;
+}
+.pic_col .singlePicCard .text p {
+    @apply text-[#744F40] font-DM text-[18px] w-full sm:w-[420px]
+}
+
+
+
+
+
+
+
+
+/* ================== animation ==================== */
+@keyframes star {
+    1%{
+        @apply w-0 h-[1px] opacity-[10]
+    }
+    25%{
+        @apply opacity-[8] h-[2px]
+    }
+    50% {
+        @apply opacity-[5] h-[2px]
+    }
+    100%{
+        @apply w-full h-[1px] opacity-[0]
+    }
+}

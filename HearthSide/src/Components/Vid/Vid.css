@@ -1,0 +1,24 @@
+#vid {
+    @apply py-[100px];
+    background: url(images/vidBG.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#vid .vid_row  {
+    @apply flex justify-center
+}
+#vid .vid_row .video {
+    @apply relative w-[800px] h-[449px]
+}
+#vid .vid_row .video iframe {
+    background-image: url(images/ytBG.png);
+    @apply w-full h-full bg-top rounded-[15px] absolute;
+    z-index: 3223;
+}
+#vid .vid_row .video img {
+    @apply absolute top-[-229px] left-[50%] translate-x-[-50%] 
+    ;
+    z-index: 1;
+}

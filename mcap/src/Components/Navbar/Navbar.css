@@ -1,0 +1,19 @@
+#navbar {
+    @apply hidden lg:block absolute w-full z-10
+}
+#navbar .menu_row {
+    @apply flex items-center py-[29px]
+}
+#navbar .menu_row .main_menu ul {
+    @apply flex gap-[45px] ml-[129px]
+}
+#navbar .menu_row .main_menu ul li a {
+    @apply font-inter text-white transition-all duration-100
+    hover:text-[17px] 
+}
+#navbar .menu_row .menu_bar {
+    @apply ms-auto
+}
+#navbar .menu_row .menu_bar svg {
+    @apply text-white text-[30px] cursor-pointer
+}

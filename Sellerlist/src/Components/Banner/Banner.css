@@ -1,0 +1,26 @@
+#banner {
+    @apply mt-[42px]
+}
+.banner_col {
+    @apply bg-cover bg-center bg-no-repeat rounded-[30px] pt-[69px] pb-[108px]
+    flex flex-col items-center
+    ;
+    background-image: url(images/banner_bg.png);
+}
+.banner_col h1 {
+    @apply font-kaushan text-[48px] text-white
+}
+.banner_col input {
+    @apply w-full pl-[81px] py-[13px] rounded-[20px]
+    text-[24px] text-[#C78F8F] border-none outline-none
+}
+.banner_col input::placeholder {
+    @apply font-kaushan text-[#C78F8F] 
+}
+.banner_col .banner_buttons {
+    @apply flex gap-[50px] mt-[59px]
+}
+.banner_col .banner_buttons button {
+    @apply font-itim text-[20px] bg-[#F1D1D1] rounded-[30px] 
+    py-[22px] px-[46px]
+}

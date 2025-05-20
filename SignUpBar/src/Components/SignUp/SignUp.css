@@ -1,0 +1,65 @@
+#SignUpBar {
+    @apply w-full bg-[#E6F3FF]
+}
+
+.sign_row {
+    @apply flex justify-between
+}
+.sign_row .sign_image {
+    @apply pt-[79px] pb-[67px] pl-[200px]
+}
+.sign_row .main_signUp {
+    @apply pt-[124px] px-[122px] pb-[44px]
+}
+
+.sign_row .main_signUp {
+    @apply flex flex-col items-center bg-[#FCFEFF]
+    rounded-l-[25px]
+}
+.sign_row .main_signUp h2{
+    @apply text-[26px] font-poppins font-semibold mb-[52px]
+}
+
+.sign_row .main_signUp form {
+    @apply flex flex-col items-center
+} 
+.sign_row .main_signUp form .user_box {
+    @apply flex flex-col
+}
+.sign_row .main_signUp form .user_box label{
+    @apply  text-[#7C838A] text-[20px] font-medium font-poppins
+}
+.main_signUp form .user_box input {
+    @apply w-[600px] h-[65px] bg-[#b0bac3] rounded-[20px]
+    border-none outline-none pl-[40px] font-poppins text-[20px]
+}
+.main_signUp form .user_box input::placeholder {
+    @apply text-gray-600
+}
+.main_signUp form button {
+    @apply text-[26px] font-medium font-poppins px-[62.5px]
+    py-[10.5px] bg-[#F9ED32] rounded-[10px] mt-[40px]
+}
+.main_signUp form p {
+    @apply text-[18px] font-poppins font-normal self-start
+    mt-[15px]
+}
+.main_signUp form p a {
+    @apply text-[#cac35b]
+}
+.sign_row .main_signUp .or {
+    @apply flex flex-col items-center gap-[18px] mt-[41px]
+}
+.sign_row .main_signUp .or h3 {
+    @apply text-[#B0BAC3] text-[26px] font-medium
+}
+.sign_row .main_signUp .or .others a{
+    @apply px-[7px] py-[2px] rounded-xl border-[1px] border-[#7C838A]
+    flex items-center gap-[2px]
+}
+.sign_row .main_signUp .or .others a p {
+    @apply text-[#7C838A] text-[14px] font-medium font-poppins
+}
+.sign_row .main_signUp p {
+    @apply font-poppins text-[20px] font-normal text-center text-[#7C838A]
+}

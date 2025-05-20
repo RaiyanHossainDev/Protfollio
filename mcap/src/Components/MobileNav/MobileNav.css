@@ -1,0 +1,20 @@
+#MobileNav {
+    @apply lg:hidden absolute w-full z-10
+}
+#MobileNav .menu_row {
+    @apply flex justify-between items-center
+    py-[29px]
+}
+#MobileNav .menu_row .main_menu .dropDown svg {
+    @apply text-[30px] text-white cursor-pointer
+}
+#MobileNav .menu_row .menu_bar svg {
+    @apply text-[30px] text-white cursor-pointer
+}
+#MobileNav ul {
+    @apply flex flex-col gap-2 bg-gray-700 px-5 py-5 rounded-[20px] mt-2
+}
+#MobileNav ul li a {
+    @apply font-inter text-white hover:bg-white hover:text-black  block
+    py-2 px-3 rounded-xl
+}

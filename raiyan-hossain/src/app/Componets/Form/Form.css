@@ -1,0 +1,35 @@
+#form {
+    background: url(/images/formBG.png);
+    @apply bg-no-repeat bg-cover bg-center py-[90px] border-y-[2px] border-y-[white]
+}
+
+#form .holder {
+    @apply flex justify-center
+}
+
+/*  */
+
+.form .chose h2 {
+    @apply text-[white] text-[24px]
+}
+.form .chose .selection {
+    @apply flex gap-[15px] flex-wrap w-[600px] mt-[20px]
+}
+.form .chose .selection span {
+    @apply  text-[18px] border-[1px] border-[#5be0fd] rounded-[5px] p-[10px]
+    cursor-pointer transition-all duration-[.4s] hover:text-[#5be0fd] hover:bg-[white] hover:border-[white]
+}
+.form .chose select {
+    @apply w-[350px] bg-[white] px-[10px] py-[5px] border-none outline-none
+    text-[20px] rounded-[10px] mt-[30px] text-[gray]
+}
+/*  */
+.form form {
+    @apply mt-[40px]
+}
+.form form h2 {
+    @apply text-[20px] text-[white]
+}
+.form form input , .form form textarea {
+    @apply text-[gray]
+}

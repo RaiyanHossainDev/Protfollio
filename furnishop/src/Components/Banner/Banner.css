@@ -1,0 +1,18 @@
+@theme {
+    --font-saira: "Saira", "sans-serif";
+}
+#banner{
+    background: url(/images/bannerBG.png);
+    filter: blur(0px); /* Adjust blur intensity */
+    -webkit-mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, black 5%);
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%, black 5%);
+    @apply pt-[225px] pb-[490px] bg-no-repeat bg-center bg-cover;
+}
+
+.banner_row {
+    @apply flex flex-col items-center
+}
+
+.banner_row h1 {
+    @apply text-[#fff] font-semibold font-saira text-[64px] text-center 
+}

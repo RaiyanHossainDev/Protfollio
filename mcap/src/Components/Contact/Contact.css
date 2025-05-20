@@ -1,0 +1,40 @@
+#contact {
+    @apply mt-[156px]
+}
+.con_row {
+    @apply flex gap-[38px] justify-center items-center lg:items-start flex-col lg:flex-row
+}
+.con_row .con_text h2 {
+    @apply text-[60px] lg:text-[80px] font-cormo leading-[80px]
+}
+.con_row .con_text p {
+    @apply text-[24px] font-Oswald italic mt-[48px] ml-[200px]
+}
+.con_row .con_text img {
+    @apply w-[350px] h-[370px] mt-[69px]
+}
+.con_row .con_vid {
+    @apply h-[200px] xl:h-[550px] w-[240px] xl:w-[770px] relative flex justify-end cursor-pointer bg-[#C4C4C4]
+}
+.con_row .con_vid .red {
+    @apply w-[90px] lg:w-[310px] h-full bg-brandColor
+}
+.con_row .con_vid img {
+    @apply absolute left-[-40px] lg:top-[330px] lg:w-[160px] w-[90px]
+}
+
+
+
+/* ============================== */
+.con_row2 {
+    @apply items-start mt-[60px]
+}
+.con_row h3 {
+    @apply flex gap-[16px] items-center font-cormo font-bold text-[24px]
+}
+.con_row2 p {
+    @apply text-[10px] lg:text-[20px] font-DM text-[#323232] lg:w-[432px] flex flex-col gap-[10px] lg:gap-[40px]
+}
+.con_row2 p a {
+    @apply text-[#EF0101] flex w-[88px] lg:w-[180px] items-center border-b-[2px] border-b-[#EF0101]
+}

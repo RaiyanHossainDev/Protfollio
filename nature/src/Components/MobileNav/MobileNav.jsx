@@ -19,7 +19,7 @@ const MobileNav = () => {
                     </Link>
                     <div className="main_menu">
                         <div className="showMenu">
-                            <VscLayoutSidebarLeft className='text-3xl cursor-pointer' onClick={()=>setMenuShow(!menuShow)} />
+                            <VscLayoutSidebarLeft className='text-3xl cursor-pointer text-[#257251]' onClick={()=>setMenuShow(!menuShow)} />
                         </div>
                         {
                             menuShow&&

@@ -1,0 +1,11 @@
+#Partner {
+    @apply mt-[120px] 
+}
+#Partner .partner_row {
+    @apply flex justify-center
+}
+
+#Partner .partner_row .partner_img {
+    @apply flex flex-wrap gap-[88px] w-full lg:w-[972px] 
+    justify-center
+}

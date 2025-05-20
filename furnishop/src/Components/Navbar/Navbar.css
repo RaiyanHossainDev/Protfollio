@@ -1,0 +1,16 @@
+@theme {
+    --font-saira: "Saira", "sans-serif";
+}
+#nav{
+    @apply pt-[28px] absolute top-[0px] z-[9999] w-full
+}
+
+.menu_row {
+    @apply flex justify-between
+}
+.menu_row .main_menu ul {
+    @apply flex gap-[64px]
+}
+.menu_row .main_menu ul li a {
+    @apply font-saira text-[16px] text-[white] transition-all duration-[.2s] hover:text-[17px]
+}

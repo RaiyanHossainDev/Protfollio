@@ -1,0 +1,13 @@
+#counter {
+    @apply relative
+}
+.counter_row {
+    @apply flex w-[900px]  justify-between p-[10px] border-[2px]
+    border-[#a3a3a3] rounded-[10px] z-[10]
+}
+
+
+
+#counter .codePic {
+    @apply absolute top-[140px] left-[50%] translate-x-[-50%] opacity-[.4] ;
+}

@@ -1,0 +1,26 @@
+#menu {
+    @apply mt-[21px]
+}
+
+.menu_row {
+    @apply px-[38px] py-[14px] bg-[#FBEFEF]
+    rounded-[30px] 
+    flex justify-between items-center
+}
+.menu_row ul {
+    @apply flex gap-[87px]
+}
+.menu_row ul li a{
+    @apply  font-itim text-[20px] transition-all
+    hover:text-[22px]
+}
+.menu_row .menu_button a{
+    @apply py-[5px] px-[25px] text-[#5B5353] bg-[#E5C0C0]
+    font-itim text-[20px] rounded-[15px]
+}
+.menu_row .menu_button {
+    @apply flex gap-[26px] items-center
+}
+.menu_row .menu_button .cart a {
+    @apply p-0
+}

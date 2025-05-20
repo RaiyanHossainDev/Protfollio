@@ -4,6 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Layout from './Layout/Layout'
 import Home from './Pages/Home'
 import About from './Pages/About'
+import NotFound from './Components/NotFound/NotFound'
 
 function App() {
   const myRouter = createBrowserRouter(
@@ -11,6 +12,7 @@ function App() {
       <Route path='/' element={<Layout/>}>
         <Route index element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='*' element={<NotFound/>}/>
       </Route>
     )
   )

@@ -1,0 +1,15 @@
+#header {
+    @apply px-[66px] py-[19px] bg-[#F2E7E7] rounded-[30px]
+}
+
+.header_row {
+    @apply flex justify-between
+}
+.header_row .header_buttons {
+    @apply flex gap-[17px]
+}
+.header_row .header_buttons a{
+    @apply px-[47px] py-[11px] bg-[#E2CFCF] rounded-[15px]
+    font-jaques text-[15px] transition-all
+    hover:bg-[#E5C0C0] 
+}

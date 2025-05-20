@@ -1,0 +1,61 @@
+#banner {
+    @apply bg-cover bg-center bg-no-repeat 
+    pt-[148px] h-[960px]
+    ;
+    background-image: url(images/banner.jpg);
+}
+.banner_texture {
+    @apply lg:flex absolute hidden 
+    top-0 right-0 lg:z-0
+}
+.banner_texture .red {
+    @apply bg-[#c23434] w-[441px] h-[960px] 
+}
+.banner_texture .gray {
+    @apply bg-[#1E1E1E] w-[746px] h-[960]
+}
+
+
+.banner_row {
+    @apply lg:relative lg:z-0 lg:w-[1507px] w-full left-[50%] translate-x-[-50%]
+    lg:flex justify-between items-baseline flex-col lg:flex-row
+    ;
+}
+.banner_row .banner_tag {
+    @apply self-end hidden lg:block
+}
+.banner_row .banner_tag h2{
+    @apply text-[30px] font-Oswald text-white
+}
+.banner_row .banner_tag p {
+    @apply font-inter text-white
+}
+.banner_row .banner_text {
+    @apply lg:mr-[150px] 
+}
+.banner_row .banner_text h1 {
+    @apply text-white font-cormo text-[18px] lg:text-[96px] lg:leading-[80px];
+}
+.banner_row .banner_text h1 br {
+    @apply hidden lg:block
+}
+.banner_row .banner_text p {
+    @apply text-white text-[8px] lg:text-[18px] font-DM w-[449px] mt-[40px]
+}
+.banner_row .banner_text .banner_vid {
+    @apply lg:w-[470px] w-[200px] lg:h-[300px] h-[100px] bg-cover bg-center bg-no-repeat relative ml-[130px]
+    cursor-pointer mt-[76px] 
+    ;
+    background-image: url(images/banner_gif.gif);
+}
+.banner_row .banner_text .banner_vid img {
+    @apply lg:absolute top-[40px] left-[-83px] 
+}
+.banner_row .banner_link {
+    @apply lg:flex gap-[80px] flex-col-reverse lg:absolute top-[50%] translate-y-[-50%] right-0
+    hidden
+}
+.banner_row .banner_link a {
+    @apply text-white text-[18px] font-cormo underline rotate-[180deg];
+    writing-mode: vertical-lr;
+}

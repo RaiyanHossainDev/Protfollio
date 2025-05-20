@@ -1,0 +1,76 @@
+#people {
+    @apply relative pb-[473px];
+    background: url(images/peopleBG.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#people .curve {
+    @apply absolute top-[-180px]  left-0
+}
+
+
+/*  */
+.people_head h2 {
+    @apply text-[#452112] font-prata text-[48px] flex items-center justify-center gap-[24px]
+}
+.people_head h2::after {
+    content: url(images/banner_star.png);
+}
+.people_head h2::before {
+    content: url(images/banner_star.png);
+}
+
+/*  */
+.people_row {
+    @apply flex mt-[80px]
+}
+.people_row .selection img {
+    @apply cursor-pointer
+}
+.people_row .anime {
+    animation: beep 2s ease 2;
+}
+.people_row .people_main {
+    @apply flex items-center px-[190px]
+}
+.people_row .people_main .main_text {
+    @apply flex flex-col gap-[34px] pt-[44px] pb-[34px] px-[48px] items-center rounded-[24px];
+    background: linear-gradient(180deg, rgba(100,219,245,1) 0%, rgba(173,227,239,1) 100%);
+}
+.people_row .people_main .main_text h2 {
+    @apply text-[#003363] font-prata text-[64px] flex items-center justify-center gap-[24px]
+}
+.people_row .people_main .main_text h2::after {
+    content: url(images/banner_star.png);
+}
+.people_row .people_main .main_text h2::before {
+    content: url(images/banner_star.png);
+}
+.people_row .people_main .main_text p {
+    @apply text-[#003363] font-DM text-[18px] w-[284px] text-center
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes beep {
+    1%{
+        @apply opacity-0
+    }
+    100%{
+        @apply opacity-[10]
+    }
+}

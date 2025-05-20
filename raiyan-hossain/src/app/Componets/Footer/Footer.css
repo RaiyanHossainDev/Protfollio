@@ -1,0 +1,96 @@
+footer{
+    @apply mt-[150px] bg-cover bg-center bg-no-repeat py-[100px] relative;
+    background: url(/images/footerBG.jpg);
+}
+footer .line1 {
+    @apply w-[300px] h-[4px] bg-[white] transition-all duration-[.4s] rounded-[2px] absolute top-[5px] left-[50%] translate-x-[-50%]
+}
+footer:hover .line1 {
+    @apply w-[400px] h-[10px] rounded-b-[10px] top-[0]
+}
+
+
+footer .holder {
+    @apply p-[70px]
+}
+
+
+
+footer .row1 {
+    @apply flex justify-between items-center 
+}
+footer .row1 .single_contact {
+    @apply flex gap-[10px] items-start
+}
+footer .row1 .single_contact svg {
+    @apply text-[#79e7ff] text-[50px]
+}
+footer .row1 .single_contact .inner h2{
+    @apply text-[white] font-[semibold] text-[22px];
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+footer .row1 .single_contact .inner p {
+    @apply text-[#c3c3c3] transition-all duration-[.2s]
+}
+footer .row1 .single_contact:hover .inner p {
+    @apply text-[white]
+}
+footer .holder .line {
+    @apply w-[700px] h-[2px] bg-[#c3c3c3] rounded-[2px] my-[70px] mx-auto transition-all duration-[.6s]
+}
+footer .container:hover .holder .line {
+    @apply w-full
+}
+
+/* = */
+footer .row2 {
+    @apply flex justify-between
+}
+.footer_row .footer_text p {
+    @apply text-[white] text-[22px] w-[471px] mt-[12px] ml-[40px] border-l-[3px] border-[white]
+    pl-[15px] hover:pl-[24px] transition-all duration-[.4s] hover:border-[#5be0fd]
+}
+.footer_row .footer_text p span {
+    @apply transition-all duration-[.3s]
+} 
+.footer_row .footer_text p:hover span {
+    @apply text-[#5be0fd]
+}
+.footer_row .footer_text .media  {
+    @apply mt-[30px] ml-[10px]
+}
+.footer_row .footer_text .media h2 {
+    @apply text-[white] text-[25px]
+}
+.footer_row .footer_text .media .verticalline {
+    @apply w-[30px] h-[2px] bg-[white] inline-block mb-[5px]
+}
+.footer_row .footer_text .media .icons {
+    @apply flex gap-[13px]
+}
+.footer_row .footer_text .media .icons a img {
+    @apply w-[30px] transition-all duration-[.3s] hover:w-[34px] hover:translate-y-[-8px]
+}
+/*  */
+
+.footer_row .footer_comments {
+    @apply flex
+}
+.footer_row .footer_comments .singleCommentCard {
+    @apply  p-[25px] rounded-[10px]
+}
+.footer_row .footer_comments .singleCommentCard p{
+    @apply text-[white] w-[260px] text-[16px]
+}
+.footer_row .footer_comments .singleCommentCard h2{
+    @apply text-[white] font-[bold] text-[18px]
+}
+.footer_row .footer_comments .singleCommentCard img{
+    @apply w-[80px] mb-[20px]
+}
+
+/*  */
+
+footer .rights h2{
+    @apply text-[white] text-[16px] mt-[10px] ml-[3px]
+}
