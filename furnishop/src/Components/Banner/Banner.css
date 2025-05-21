@@ -14,5 +14,5 @@
 }
 
 .banner_row h1 {
-    @apply text-[#fff] font-semibold font-saira text-[64px] text-center 
+    @apply text-[#fff] font-[semibold] font-saira text-[64px] text-center 
 }

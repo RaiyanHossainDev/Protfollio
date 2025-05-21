@@ -29,18 +29,19 @@ const page = () => {
 
       
 
-        <div className="max-w-6xl mx-auto mt-[100px]">
+        <div className="max-w-6xl mx-auto mt-[100px] ">
           <h2 className="text-4xl font-extrabold mb-12 relative inline-block text-white">
             More Projects
             <span className="absolute left-0 bottom-[-6px] w-1/2 h-1 bg-cyan-400 animate-pulse rounded"></span>
           </h2>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className='flex gap-[40px]'>
+            <div className="">
               <div className="group bg-white/5 border border-cyan-500 rounded-2xl p-5 backdrop-blur-md hover:scale-[1.02] transition-transform shadow-lg hover:shadow-cyan-500/30">
-                <img src="/images/nature.png" alt="" className='rounded-lg' />
+                <img src="/images/nature.png" width={300} alt="" className='rounded-lg' />
                 <h3 className="text-xl font-semibold mb-2">Nature</h3>
-                <p className="text-sm text-gray-300 mb-4">
-                  Short futuristic description of your project goes here. Keep it punchy and cool.
+                <p className="text-sm text-gray-300 mb-4 w-[300px]">
+                  A nature themed website to encourage peoples to plant trees.
                 </p>
                 <div className="flex flex-wrap gap-2 text-xs text-cyan-200">
                   <span className="bg-cyan-800/50 px-2 py-1 rounded">React</span>
@@ -51,6 +52,43 @@ const page = () => {
                   <a href="https://nature-dun.vercel.app/" target='_blank' className="hover:underline">Live Demo →</a>
                 </div>
               </div>
+            </div>
+            {/*  */}
+            <div className="">
+              <div className="group bg-white/5 border border-cyan-500 rounded-2xl p-5 backdrop-blur-md hover:scale-[1.02] transition-transform shadow-lg hover:shadow-cyan-500/30">
+                <img src="/images/furniture.png" width={300} alt="" className='rounded-lg' />
+                <h3 className="text-xl font-semibold mb-2">Furniture</h3>
+                <p className="text-sm text-gray-300 mb-4 w-[300px]">
+                  A well responsive landing page.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs text-cyan-200">
+                  <span className="bg-cyan-800/50 px-2 py-1 rounded">React</span>
+                  <span className="bg-cyan-800/50 px-2 py-1 rounded">Tailwind</span>
+                </div>
+                <div className="mt-4 flex justify-between text-sm text-cyan-400">
+                  <a href="https://github.com/RaiyanHossainDev/Projects/tree/main/Project%203%20Furniture" target='_blank' className="hover:underline">GitHub →</a>
+                  <a href="https://projects-ny3jq3exo-raiyanhossaindevs-projects.vercel.app/" target='_blank' className="hover:underline">Live Demo →</a>
+                </div>
+              </div>
+            </div>
+            {/*  */}
+            <div className="">
+              <div className="group bg-white/5 border border-cyan-500 rounded-2xl p-5 backdrop-blur-md hover:scale-[1.02] transition-transform shadow-lg hover:shadow-cyan-500/30">
+                <img src="/images/realestate.png" width={300} alt="" className='rounded-lg' />
+                <h3 className="text-xl font-semibold mb-2">Real-Estate</h3>
+                <p className="text-sm text-gray-300 mb-4 w-[300px]">
+                  A Real-Estate website.
+                </p>
+                <div className="flex flex-wrap gap-2 text-xs text-cyan-200">
+                  <span className="bg-cyan-800/50 px-2 py-1 rounded">React</span>
+                  <span className="bg-cyan-800/50 px-2 py-1 rounded">Tailwind</span>
+                </div>
+                <div className="mt-4 flex justify-between text-sm text-cyan-400">
+                  <a href="https://github.com/RaiyanHossainDev/Projects/tree/main/Project%203%20Furniture" target='_blank' className="hover:underline">GitHub →</a>
+                  <a href="https://projects-ny3jq3exo-raiyanhossaindevs-projects.vercel.app/" target='_blank' className="hover:underline">Live Demo →</a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     </section>
