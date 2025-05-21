@@ -72,23 +72,6 @@ const page = () => {
               </div>
             </div>
             {/*  */}
-            <div className="">
-              <div className="group bg-white/5 border border-cyan-500 rounded-2xl p-5 backdrop-blur-md hover:scale-[1.02] transition-transform shadow-lg hover:shadow-cyan-500/30">
-                <img src="/images/realestate.png" width={300} alt="" className='rounded-lg' />
-                <h3 className="text-xl font-semibold mb-2">Real-Estate</h3>
-                <p className="text-sm text-gray-300 mb-4 w-[300px]">
-                  A Real-Estate website.
-                </p>
-                <div className="flex flex-wrap gap-2 text-xs text-cyan-200">
-                  <span className="bg-cyan-800/50 px-2 py-1 rounded">React</span>
-                  <span className="bg-cyan-800/50 px-2 py-1 rounded">Tailwind</span>
-                </div>
-                <div className="mt-4 flex justify-between text-sm text-cyan-400">
-                  <a href="https://github.com/RaiyanHossainDev/Projects/tree/main/Project%203%20Furniture" target='_blank' className="hover:underline">GitHub →</a>
-                  <a href="https://projects-ny3jq3exo-raiyanhossaindevs-projects.vercel.app/" target='_blank' className="hover:underline">Live Demo →</a>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
     </section>
